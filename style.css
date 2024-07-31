@@ -24,8 +24,8 @@ body {
 }
 
 .qr-code-card {
-  width: 320px;
-  height: 499px;
+  max-width: 320px;
+  max-height: 499px;
   background-color: white;
   border-radius: 20px;
 }
