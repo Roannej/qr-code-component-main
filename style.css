@@ -1,0 +1,66 @@
+/* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 100 to 900*/
+
+/*.outfit-<uniquifier> {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}*/
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #D5E1EF;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qr-code-card {
+  width: 320px;
+  height: 499px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.inner-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.qr-image {
+  width: 288px;
+  border-radius: 10px;
+  margin: 16px;
+}
+
+.p1 {
+  color: #1F314F;
+}
+
+.p2 {
+  color: #68778D;
+}
+
+.attribution {
+  margin-top: auto;
+}
